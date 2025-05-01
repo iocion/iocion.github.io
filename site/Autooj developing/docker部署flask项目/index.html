@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="冷秋旱">
+        <link rel="canonical" href="https://iocion.github.io/Autooj%20developing/docker%E9%83%A8%E7%BD%B2flask%E9%A1%B9%E7%9B%AE/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Docker部署flask项目 - fuzzy_han's personal website</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">fuzzy_han's personal website</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">AI</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../AI/AI%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" class="dropdown-item">AI深度学习</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Algorithm</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Algorithm/algoritm_path/" class="dropdown-item">algorithm</a>
+</li>
+                                    
+<li>
+    <a href="../../Algorithm/%E7%AE%97%E6%B3%95%E8%AF%BE%E8%AE%BE/" class="dropdown-item">算法课设</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Autooj developing</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../autooj%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98/" class="dropdown-item">Autooj开发问题</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Docker部署flask项目</a>
+</li>
+                                    
+<li>
+    <a href="../vscode%E8%BF%9C%E7%A8%8Bubuntu%E5%BC%80%E5%8F%91/" class="dropdown-item">Vscode远程ubuntu开发</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Bug</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Bug/%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90/" class="dropdown-item">问题分析</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Database</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Database/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BC%80%E5%8F%91/" class="dropdown-item">数据库开发</a>
+</li>
+                                    
+<li>
+    <a href="../../Database/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%80%83%E8%AF%95%E5%86%85%E5%AE%B9/" class="dropdown-item">数据库考试内容</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Git</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Git/Git%20%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/" class="dropdown-item">Git 使用笔记</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Other</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Other/Untitled/" class="dropdown-item">Untitled</a>
+</li>
+                                    
+<li>
+    <a href="../../Other/sql_injection/" class="dropdown-item">sql injection(sql注入)</a>
+</li>
+                                    
+<li>
+    <a href="../../Other/%E5%BC%80%E5%8F%91/" class="dropdown-item">开发</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Record</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Record/2024.4.28%E6%9D%AD%E5%B7%9E%E8%AE%B0%E5%BD%95/" class="dropdown-item">2024.4.28杭州记录</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../autooj%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../vscode%E8%BF%9C%E7%A8%8Bubuntu%E5%BC%80%E5%8F%91/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#dockerflask" class="nav-link">docker部署flask项目</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="dockerflask">docker部署flask项目</h2>
+<pre><code class="language-bash">docker images
+docker ps
+</code></pre>
+<h3 id="dockerfiledocker-composedocker">使用Dockerfile和docker compose来进行docker的部署</h3>
+<p><strong>编写dockerfile以及compose.yml</strong></p>
+<pre><code class="language-python"># 项目框架
+# backend 
+# frontend
+# compose.yml
+</code></pre>
+<h3 id="_1">整体项目工程构建</h3>
+<pre><code class="language-bash">1.独立build
+docker build -t &quot;container_name&quot; .
+2.使用docker compose 进行build
+docker-compose build
+</code></pre>
+<p><strong>前端使用npm或者yarn工具构建前端项目</strong></p>
+<pre><code class="language-python">npm run build
+# 或者使用 yarn build 
+</code></pre>
+<pre><code class="language-bash"># use
+# before push ,login first
+# so run &gt; docker login
+docker login # 这一步总是打开docker desktop，其他的认证方法我都没有测试 
+# 
+#login sucessed
+docker push image_name
+</code></pre>
+<h3 id="_2">部署远端服务器</h3>
+<pre><code class="language-bash">docker pull image_name:tag
+</code></pre>
+<p>或者使用docker-compose pull</p>
+<pre><code class="language-bash">sudo docker stop $(docker ps -q) #关闭所有正在运行中的容器
+sudo docker-compose pull
+docker compose up -d # 运行docker compose 并在后台运行
+</code></pre>
+<h3 id="_3">单独或者统一配置数据库</h3>
+<pre><code class="language-bash">docker pull mysql
+</code></pre>
+<p>连接mysql数据库
+run.sql进行数据库的构建，使用10.16.13.212进行与服务器的连接，注意默认端口号是:3306</p>
+<pre><code class="language-bash">10.16.13.212:3306     # 可以使用navicat工具 run.sql
+</code></pre>
+<pre><code class="language-bash">docker volume ls
+
+</code></pre>
+<h3 id="docker">docker运行意外退出</h3>
+<pre><code class="language-bash">docker ps -a # 查看包括退出的docker container
+ubuntu@VM-0-11-ubuntu:~$ docker run -it iocion/test:v1.0 bash
+ubuntu@VM-0-11-ubuntu:~$ docker exec -it iocion/test:v1.0 bash # 进入容器内部进行操作
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
