@@ -2,7 +2,7 @@
 # 左上角标题
 site_name: fuzzy_han's personal website
 site_url: https://iocion.github.io
-site_author: 冷秋旱
+site_author: fuzzy_han
 site_description: 
   个人主页，包含一些项目的更新和动态
   以及一些有趣的链接和资源
@@ -99,7 +99,9 @@ repo_name: iocion.github.io
 # [bottom-left corner]
 # [版权说明]
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
-copyright: 冷秋旱 CC-BY-1.0
+copyright: iocion © 2024
+# [底部的翻页]
+# https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#footer
 # [bottom-right corner]
 extra:
   # [添加社交网络图标和链接]
