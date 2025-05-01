@@ -12,11 +12,8 @@ site_description:
 nav:
   - 我:
     - ME/index.md
-    - ME/index.md
-  - 讲稿:
 
   - 博客:
-    - AI/index.md
     - AI/AI深度学习.md
     
   - 网站:
