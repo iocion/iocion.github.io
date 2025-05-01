@@ -3,7 +3,7 @@
 #### 1.网络连接问题
 
 无法连接的时候可以使用clash-verge的全局代理
-Git配置参考：https://git.javaliu.com/02_config/03_remote_config.html
+Git配置参考：[Git配置文档参考](https://git.javaliu.com/02_config/03_remote_config.html)。
 <img src="C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20250421011829645.png" alt="image-20250421011829645" style="zoom:30%;" />
 
 ```bash
