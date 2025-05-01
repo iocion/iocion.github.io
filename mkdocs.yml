@@ -11,24 +11,19 @@ site_description:
 # [Navigtion]
 nav:
   - 我:
-    - ME/index.md
-
+    - index.md
   - 博客:
     - AI/AI深度学习.md
-    
-  - 网站:
-    # 访客打开网站第一个看到的是 docs/index.md
-    # 构建网站时，不用管报错 "The following pages exist in the docs directory, but are not included in the "nav" configuration: index.md"
-    # 如果访客之后想要重新看到这个界面，可以在 docs/WEBSITE/index.md 找到
-    - WEBSITE/index.md
-    - WEBSITE/build.md
-    - WEBSITE/help.md
-    - WEBSITE/test.md
+    - Algorithm/算法课设.md
+    - Algorithm/algoritm_path.md
 
-# [UI]
-# [top]
+
+
+
+# # [UI]
+# # [top]
 theme:
-  name: material
+  name: readthedocs
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
@@ -118,43 +113,43 @@ plugins:
   # [给单篇文章添加标签]
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#meta.tags
-  - tags
-markdown_extensions:
-  # [数学公式支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - pymdownx.arithmatex:
-      generic: true
-  # [图片功能支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/images/
-  # 给 Markdown 图片语法后面添加 `{width="300"}` 设置大小
-  - attr_list
-  - md_in_html
-  # [给标题添加链接]
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.permalink
-  - toc:
-      permalink: true # 固定标题位置为当前位置
-  # [代码语法高亮]
-  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
-  - pymdownx.highlight:
-      # 显示行号
-      linenums: true
-      # 显示编程语言名称
-      auto_title: true
-      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.line_spans
-      line_spans: __span
-      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.pygments_lang_class
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  # [Markdown 提示]
-  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
-  - admonition
-  - pymdownx.details
-  # [Markdown footnote 语法支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
-  - footnotes
+#   - tags
+# markdown_extensions:
+#   # [数学公式支持]
+#   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+#   - pymdownx.arithmatex:
+#       generic: true
+#   # [图片功能支持]
+#   # https://squidfunk.github.io/mkdocs-material/reference/images/
+#   # 给 Markdown 图片语法后面添加 `{width="300"}` 设置大小
+  # - attr_list
+  # - md_in_html
+  # # [给标题添加链接]
+  # # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.permalink
+  # - toc:
+  #     permalink: true # 固定标题位置为当前位置
+  # # [代码语法高亮]
+  # # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
+  # # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+  # - pymdownx.highlight:
+      # # 显示行号
+      # linenums: true
+      # # 显示编程语言名称
+      # auto_title: true
+      # # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.line_spans
+      # line_spans: __span
+      # # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.pygments_lang_class
+      # pygments_lang_class: true
+  # - pymdownx.inlinehilite
+  # - pymdownx.snippets
+  # - pymdownx.superfences
+  # # [Markdown 提示]
+  # # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  # - admonition
+  # - pymdownx.details
+  # # [Markdown footnote 语法支持]
+  # # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
+  # - footnotes
 
 extra_javascript:
   # [数学公式支持]
