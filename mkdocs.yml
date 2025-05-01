@@ -22,7 +22,13 @@ nav:
   - Database:
     - Database/数据库开发.md
     - Database/数据库考试内容.md
-
+  - Git:
+    - Git/Git使用笔记.md
+  - Record:
+    - Record/2024.4.28杭州记录.md
+  - Other:
+    - Other/sql_injection.md
+    - Other/开发.md
 
 
 # # [UI]
