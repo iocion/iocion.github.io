@@ -10,8 +10,6 @@ site_description:
 
 # [Navigtion]
 nav:
-  - 我:
-    - 
   - AI:
     - AI/AI深度学习.md
   - Algorithm:
