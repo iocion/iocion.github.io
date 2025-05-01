@@ -14,7 +14,7 @@ nav:
     - AI/AI深度学习.md
   - Algorithm:
     - Algorithm/算法课设.md
-    - Algorithm/算法课设/algorithm_path.md
+    - Algorithm/algorithm_path.md
   - Autooj developing:
     - Autooj developing/autooj开发问题.md
     - Autooj developing/docker部署flask项目.md
