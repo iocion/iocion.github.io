@@ -11,12 +11,19 @@ site_description:
 # [Navigtion]
 nav:
   - 我:
-    - index.md
-  - 博客:
+    - 
+  - AI:
     - AI/AI深度学习.md
+  - Algorithm:
     - Algorithm/算法课设.md
-    - Algorithm/algoritm_path.md
-
+    - Algorithm/算法课设/algorithm_path.md
+  - Autooj developing:
+    - Autooj developing/autooj开发问题.md
+    - Autooj developing/docker部署flask项目.md
+    - Autooj developing/vscode远程ubuntu开发.md
+  - Database:
+    - Database/数据库开发.md
+    - Database/数据库考试内容.md
 
 
 
