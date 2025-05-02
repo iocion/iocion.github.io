@@ -11,3 +11,4 @@ docker run --gpus all --shm-size 32g -p 30000:30000 -v ~/.cache/huggingface:/roo
 ```bash
 ```
 
+<span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>

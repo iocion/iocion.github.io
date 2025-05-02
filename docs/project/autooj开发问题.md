@@ -64,3 +64,6 @@ utils.py 部分的数据库配置部分
 ```
 
 ![image-20250423120423961](C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20250423120423961.png)
+
+
+<span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>

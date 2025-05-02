@@ -84,5 +84,5 @@ ubuntu@VM-0-11-ubuntu:~$ docker run -it iocion/test:v1.0 bash
 ubuntu@VM-0-11-ubuntu:~$ docker exec -it iocion/test:v1.0 bash # 进入容器内部进行操作
 ```
 
-
+<span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
 
