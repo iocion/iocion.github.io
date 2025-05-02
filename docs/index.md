@@ -1,4 +1,4 @@
-# welcome to  fuzzy_han's website
+# welcome to fuzzy_han's website
 
 ```python
 print("hello fuzzy han")
