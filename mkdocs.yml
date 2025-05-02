@@ -10,25 +10,31 @@ site_description:
 
 # [Navigtion]
 nav:
-  - AI:
-    - AI/AI深度学习.md
   - Algorithm:
-    - Algorithm/算法课设.md
-    - Algorithm/algorithm_path.md
-  - Autooj developing:
-    - Autooj developing/autooj开发问题.md
-    - Autooj developing/docker部署flask项目.md
-    - Autooj developing/vscode远程ubuntu开发.md
+    - algorithm/算法课设.md
+    - algorithm/algorithm_path.md
+  - project:
+    - project/autooj开发问题.md
+    - project/docker部署flask项目.md
+    - project/vscode远程ubuntu开发.md
   - Database:
-    - Database/数据库开发.md
-    - Database/数据库考试内容.md
+    - database/数据库开发.md
+    - database/数据库考试内容.md
   - Git:
     - Git/Git使用笔记.md
   - Record:
     - Record/2024.4.28杭州记录.md
-  - Bug:
-    - Bug/问题分析.md
+  - AI:
+    - AI/AI深度学习.md
   - Other:
+    - bug:
+      - Other/bug/问题分析.md
+    - ssh:
+      - Other/ssh/破解ssh密码.md
+    - windows:
+      - Other/windows/激活windows11专业.md
+    - math model:
+      - Other/math model/51联赛.md
     - Other/sql_injection.md
     - Other/开发.md
 
