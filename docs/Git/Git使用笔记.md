@@ -96,7 +96,7 @@ git status # 检查工作区和暂存区是不是干净的
 # 如下图所示
 ```
 
-<img src="C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20250501122834883.png" alt="image-20250501122834883" style="zoom:80%;" />
+<img src="https://iocion.github.io/image-bed/image/Git使用笔记.png" alt="image-20250428182724646" style="zoom:100%;" />
 
 ```bash
 2：解决方法二
@@ -107,6 +107,6 @@ git status # 检查工作区和暂存区是不是干净的
 or git stash pop stash@{0} 来恢复指定的 stash
 ```
 
-![image-20250501130220636](C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20250501130220636.png)
+<img src="https://iocion.github.io/image-bed/image/Git%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0workdflow.png" alt="image-20250428182724646" style="zoom:100%;" />
 
 
