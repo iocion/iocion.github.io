@@ -22,6 +22,7 @@ int main(){
     return 0;
 }
 ```
+[实时渲染公式word latex等格式](https://snip.mathpix.com/)
 <!DOCTYPE html>
 <html>
 <head>
