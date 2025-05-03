@@ -1,4 +1,4 @@
-
+!!! info "详细说明" 关于搜片引擎的更多信息，包括推荐的引擎列表、API格式说明以及高级配置，请查看我们的搜片引擎帮助文档。
 # welcome to fuzzy_han's website
 
 ```python
