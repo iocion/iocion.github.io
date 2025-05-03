@@ -124,6 +124,16 @@ extra:
 
 # [Extensions]
 plugins:
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "50%"
+      # [视频支持]
+      # https://squidfunk.github.io/mkdocs-material/reference/videos/
+      # https://squidfunk.github.io/mkdocs-material/setup/setting-up-videos/
+      # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#video
   # [搜索功能]
   # https://squidfunk.github.io/mkdocs-material/plugins/search/
   # 之前中文搜索是 Insider 的功能（https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/），现在好像已经是默认功能了，
