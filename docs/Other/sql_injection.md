@@ -13,4 +13,21 @@ https://test-ipv4.com/
 # Use this tool try to use url to inject some SQL language words  
 ```
 
+### 校园网连接
+
+AUST_Faculty 教职工登录入口  (http://10.255.0.41)
+
+教职工自动登录python脚本
+
+```python
+import requests
+data = {"callback": "dr1003", "DDDDD": "2023302434@unicom", "upass": "852999##", "0MKKey": "123456"}
+url = "http://10.255.0.41"
+response = requests.post(url, data=data)
+print(response.text)
+```
+
+AUST_Student 学生登录入口 (http://10.255.0.19)
+
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
+
