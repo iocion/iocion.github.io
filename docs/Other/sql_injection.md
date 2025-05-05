@@ -15,7 +15,7 @@ https://test-ipv4.com/
 
 ### 校园网连接
 
-AUST_Faculty 教职工登录入口  (http://10.255.0.41)
+AUST_Faculty 教职工登录入口  <http://10.255.0.41>
 
 教职工自动登录python脚本
 
@@ -27,7 +27,7 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
-AUST_Student 学生登录入口 (http://10.255.0.19)
+AUST_Student 学生登录入口 <http://10.255.0.19>
 
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
 
