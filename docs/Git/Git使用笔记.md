@@ -109,5 +109,9 @@ or git stash pop stash@{0} 来恢复指定的 stash
 
 <img src="https://iocion.github.io/image-bed/image/Git使用笔记.png" alt="image-20250428182724646" style="zoom:100%;" />
 
-
+#### 6.使用git stash进行隐藏修改
+```bash
+1.使用git stash <filename>
+2.git stash pop 回到上面一个状态
+```
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
