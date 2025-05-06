@@ -54,7 +54,7 @@ theme:
     - scheme: default
       # 主颜色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
-      primary: black
+      primary: light green
       # 链接等可交互元件的高亮色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
       accent: light blue
@@ -65,7 +65,7 @@ theme:
         name: 切换至夜间模式
     # 夜间模式
     - scheme: slate
-      primary: indigo
+      primary: deep purple
       accent: orange
       toggle:
         icon: material/weather-sunny
