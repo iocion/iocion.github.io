@@ -114,4 +114,18 @@ or git stash pop stash@{0} 来恢复指定的 stash
 1.使用git stash <filename>
 2.git stash pop 回到上面一个状态
 ```
+
+
+#### 7.使用增加.gitignore放置提交杂项文件
+(template here)<https://github.com/github/gitignore>
+
+
+#### 8.如果commit重要信息怎么回退
+```bash
+# 查看帮助git --help [command]
+git checkout (git老版本)
+git restore 
+git revert 
+git reset
+```
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
