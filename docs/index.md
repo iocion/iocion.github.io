@@ -2,8 +2,8 @@
     你好呀，欢迎来到 fuzzy_han's document。
 
 # welcome to fuzzy_han's website
-!!! warning "注意"
-​	 TIM视频的7分55秒——> 动捕视频
+
+![](https://raw.githubusercontent.com/iocion/iocion/refs/heads/output/github-contribution-grid-snake.svg)
 
 ```python
 print("hello fuzzy han")
