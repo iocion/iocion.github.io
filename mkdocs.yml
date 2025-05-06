@@ -18,9 +18,18 @@ nav:
     - project/autooj开发问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
-  - Database:
-    - database/数据库开发.md
-    - database/数据库考试内容.md
+  - course:
+    - 数据库:
+      - 数据库学习:
+        - course/数据库/数据库考试内容.md
+        - course/数据库/sql语法.md
+      - course/数据库/数据库开发.md
+    - 操作系统:
+      - course/操作系统/操作系统学习.md
+    - 汇编:
+      - course/汇编/汇编学习.md
+    - 计组:
+      - course/计组/计组学习.md
   - Git:
     - Git/Git使用笔记.md
   - Record:
