@@ -15,7 +15,8 @@ nav:
     - course_project:
       - algorithm/course_project/雷达题.md
   - project:
-    - project/autooj开发问题.md
+    - autooj:
+      - project/autooj/autooj开发问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
   - course:
