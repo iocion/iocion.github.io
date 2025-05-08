@@ -5,3 +5,7 @@ create table student(
     sname varchar(20)
 );
 ```
+
+```sql
+```
+
