@@ -20,7 +20,7 @@ nav:
   - 算法:
     - algorithm/algorithm_path.md
     - course_project:
-      - algorithm/course_project/雷达题.md
+      - algorithm/course_project/课设.md
   - 项目:
     - autooj:
       - project/autooj/autooj开发问题.md
@@ -29,7 +29,6 @@ nav:
   - 课程:
     - 数据库:
       - 数据库学习:
-        - course/数据库/数据库学习/数据库考试内容.md
         - course/数据库/数据库学习/sql语法.md
         - course/数据库/数据库学习/关系理论.md
       - 数据库课设:
