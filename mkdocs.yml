@@ -132,7 +132,7 @@ repo_name: iocion.github.io
 # [bottom-left corner]
 # [版权说明]
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
-copyright: iocion © 2025
+copyright: copyright iocion © 2025
 # [底部的翻页]
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#footer
 # [bottom-right corner]
