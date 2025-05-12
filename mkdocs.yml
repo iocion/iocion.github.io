@@ -10,21 +10,31 @@ site_description:
 
 # [Navigtion]
 nav:
-  - Algorithm:
+  - 编程语言:
+    - python:
+      - program_language/python/python.md
+    - cpp:
+      - program_language/cpp/cpp学习.md
+    - rust:
+      - program_language/rust/rust.md
+  - 算法:
     - algorithm/algorithm_path.md
     - course_project:
       - algorithm/course_project/雷达题.md
-  - project:
+  - 项目:
     - autooj:
       - project/autooj/autooj开发问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
-  - course:
+  - 课程:
     - 数据库:
       - 数据库学习:
         - course/数据库/数据库学习/数据库考试内容.md
         - course/数据库/数据库学习/sql语法.md
         - course/数据库/数据库学习/关系理论.md
+      - 数据库课设:
+        - course/数据库/数据库课设/mysql连接.md
+        - course/数据库/数据库课设/药品进销.md
       - course/数据库/数据库开发.md
     - 操作系统:
       - course/操作系统/操作系统学习.md
@@ -34,7 +44,7 @@ nav:
       - course/计组/计组学习.md
   - Git:
     - Git/Git使用笔记.md
-  - Record:
+  - 记录:
     - record/2025.4.28杭州记录.md
     - record/2025.5.5随笔.md
     - record/2025.5.9随笔.md
@@ -42,7 +52,7 @@ nav:
     - AI/AI深度学习.md
     - AI/视频测试.md
     - AI/核心竞争力.md
-  - Other:
+  - 其他:
     - bug:
       - Other/bug/问题分析.md
     - ssh:
