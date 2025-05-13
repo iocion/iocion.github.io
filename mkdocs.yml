@@ -13,6 +13,12 @@ nav:
   - 编程语言:
     - python:
       - program_language/python/python.md
+      - program_language/python/AI组第二次作业.md
+      - program_language/python/AI组第三次作业.md
+      - program_language/python/AI组第四次作业.md
+      - program_language/python/AI组第五次作业.md
+      - program_language/python/AI组第六次作业.md
+      - program_language/python/环境安装.md
     - cpp:
       - program_language/cpp/cpp学习.md
     - rust:
