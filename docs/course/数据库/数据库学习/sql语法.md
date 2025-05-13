@@ -73,3 +73,14 @@ constraint <完整性约束条件名> <完整性约束条件>
 
 完整性约束条件包括 not null , unique primary key , foreign key ,check .....
 
+### sql语句操作
+
+```sql
+# 删除一行数据
+delete from `comment`
+where id=5;
+# 更改属性名
+ALTER TABLE customer 
+RENAME COLUMN customer TO customerid;
+```
+
