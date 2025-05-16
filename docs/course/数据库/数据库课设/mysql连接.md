@@ -55,6 +55,18 @@ username->用户名称
 db_name->数据库名称
 ```
 
+### 4.使用sqlalchemy的一些错误和学习过程
+
+```python
+item_count = Item.query.count()
+filter_by # 不支持多参数<= > 的比较
+filter # 支持直接比较，使用 类 + 属性名称 进行查询 可用like,not like等方式
+item = Item.query.filter_by(id=item_id).first()
+item = Item.query.filter(Item.name.like(f%'{item_name}'%)).first()
+```
+
+
+
 
 
 
