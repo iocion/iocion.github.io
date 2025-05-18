@@ -131,4 +131,17 @@ git restore
 git revert 
 git reset
 ```
+#### 8.git连接总是失败的问题解决
+
+```bash
+export -p # 
+##declare -x http_proxy="http://127.0.0.1:7897"
+declare -x https_proxy="http://127.0.0.1:7897"
+##
+unset http_proxy
+unset https_proxy
+```
+
+
+
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
