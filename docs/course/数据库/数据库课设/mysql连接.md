@@ -32,6 +32,25 @@ docker run -d --name=mysql-server -p 3310:3306 -v medicine_mysql:/var/lib/mysql 
 # -p port 端口映射
 # -v 体积卷位置
 # -e 密码以及数据库类型
+********************************
+docker run -d --name=mysql-server -p 3310:3306 -v medicine_mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 -e TZ=Asia/Shanghai mysql 
+#指定时区为上海,经过尝试发现时区无法更改，在数据库执行
+SELECT @@global.time_zone;
+SELECT NOW();
+# 返回system，于是选择直接在ubuntu内部进行系统更改时区
+sudo timedatectl set-timezone Asia/Shanghai
+```
+
+```bash
+ubuntu@VM-0-11-ubuntu:~$ timedatectl status
+               Local time: Sat 2025-05-17 12:59:22 CST
+           Universal time: Sat 2025-05-17 04:59:22 UTC
+                 RTC time: Sat 2025-05-17 04:59:22
+                Time zone: Asia/Shanghai (CST, +0800)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+通过检查 timedatectl status 发现系统时区更新成功，于是解决问题
 ```
 
 ### 3.使用python的sqlalchemy连接local或者远端mysql
