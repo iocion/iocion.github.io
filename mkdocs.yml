@@ -32,6 +32,8 @@ nav:
       - project/autooj/autooj开发问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
+  - Linux:
+    - Linux/linux使用笔记.md
   - 课程:
     - 数据库:
       - 数据库学习:
@@ -49,14 +51,21 @@ nav:
       - course/计组/计组学习.md
   - Git:
     - Git/Git使用笔记.md
+  - 竞赛:
+    - 数学建模:
+      - compotition/数学建模.md
+    - 星火杯:
+      - compotition/星火杯.md
+    - 数据库设计大赛:
+      - compotition/数据库设计大赛.md
+  - AI:
+    - AI/AI深度学习.md
+    - AI/编辑器使用.md
+    - AI/核心竞争力.md
   - 记录:
     - record/2025.4.28杭州记录.md
     - record/2025.5.5随笔.md
     - record/2025.5.9随笔.md
-  - AI:
-    - AI/AI深度学习.md
-    - AI/视频测试.md
-    - AI/核心竞争力.md
   - 其他:
     - bug:
       - Other/bug/问题分析.md
