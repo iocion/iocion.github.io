@@ -10,6 +10,9 @@ site_description:
 
 # [Navigtion]
 nav:
+  - 笔记:
+    - 笔记内容
+      - notes/db_note.md
   - 编程语言:
     - python:
       - program_language/python/python.md
