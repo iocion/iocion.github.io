@@ -57,10 +57,14 @@ nav:
   - 竞赛:
     - 数学建模:
       - compotition/数学建模.md
+    - 数据库设计大赛:
+      - compotition/数据库设计大赛/数据库设计大赛.md
+      - compotition/数据库设计大赛/第一题.md
+      - compotition/数据库设计大赛/第二题.md
+      - compotition/数据库设计大赛/第三题.md
+      - compotition/数据库设计大赛/第四题.md
     - 星火杯:
       - compotition/星火杯.md
-    - 数据库设计大赛:
-      - compotition/数据库设计大赛.md
   - AI:
     - AI/AI深度学习.md
     - AI/编辑器使用.md
