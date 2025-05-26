@@ -30,3 +30,46 @@ std:vector<int> dest[] = {1,2,3,4,5}
 for(const int& var : dest)
 ```
 
+
+
+#### 1.cpp的结构体
+
+```cpp
+include <string.h>
+#define X 100
+//cpp结构体部分
+typedef struct Student{
+        char name[50];
+        const char* school;
+        int age;
+        int height;
+        int weight;
+        //构造函数
+    	//const 变量是不可修改
+        void init(int age,int height,int weight,const char* school, const char* name){
+		//在cpp中为了代码规范这里的init函数不要自己命名，会出现每一次结构体的构造都需要运行init函数
+         //编译器无法自身优化
+        this->age = age;
+        this->height = height;
+        this->weight = weight;
+        strcpy(this->name,name);
+        this->school = school;
+        }
+        void who(){
+                printf("我今年%d岁,来自%s大学，身高是%d,体重是%d",this->age,this->school,this->height,this->weight);
+        }
+        //成员函数，只支持cpp的语法
+}Student;  //这种写法更优
+//结构体传入函数里面
+
+int main(){
+  puts("ok");
+  printf("%d\n",X);
+  Student s;
+  s.init(18,170,110,"安徽理工大学","李白");
+  s.who();
+  return 0;
+      
+}
+```
+

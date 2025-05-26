@@ -11,7 +11,7 @@ site_description:
 # [Navigtion]
 nav:
   - 笔记:
-    - 笔记内容
+    - 随笔笔记:
       - notes/db_note.md
   - 编程语言:
     - python:
