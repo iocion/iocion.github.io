@@ -26,7 +26,11 @@ for (const Type& var : container): 按常量引用访问，效率高，且保证
 
 ```cpp
 //推荐的使用方式
-std:vector<int> dest[] = {1,2,3,4,5}
+std::vector<int> dest[] = {1,2,3,4,5}  //这样写是错误的
+//声明了一个 std::vector<int> 数组，而不是一个 std::vector<int> 对象。
+std::vector<int> dest[] 意味着 dest 是一个数组，它的每个元素都是一个 std::vector<int> 对象。由于没有指定数组大小，编译器会根据初始化列表来推断。
+正确的写法如下：
+std::vector<int> dest = {1,2,4,5,6} 
 for(const int& var : dest)
 ```
 
