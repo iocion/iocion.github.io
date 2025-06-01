@@ -36,7 +36,7 @@ for(const int& var : dest)
 
 
 
-#### 1.cpp的结构体
+#### 2.cpp的结构体
 
 ```cpp
 include <string.h>
@@ -77,7 +77,7 @@ int main(){
 }
 ```
 
-#### C++中的枚举、模板函数、内存操作和类型比较逻辑
+#### 3.C++中的枚举、模板函数、内存操作和类型比较逻辑
 
 **这一段代码示例来自于2025：rmdb数据库系统设计大赛**
 
@@ -149,5 +149,33 @@ inline int ix_compare(const char* a,const char* b,const std::vector<ColType>& co
 采用const T*的好处
 高效： 因为没有进行对象拷贝。
 安全： 因为函数保证不会修改原始数据
+```
+
+#### 4.cmake多文件链接构建
+
+```bash
+[ 18%] Linking CXX static library ../../lib/libstorage.a
+# 加载静态库 static library ../../lib/libstorage.a
+[ 24%] Built target storage
+Consolidate compiler generated dependencies of target index
+[ 33%] Built target index
+Consolidate compiler generated dependencies of target recovery
+[ 42%] Built target recovery
+Consolidate compiler generated dependencies of target transaction
+[ 54%] Built target transaction
+Consolidate compiler generated dependencies of target system
+[ 60%] Built target system
+Consolidate compiler generated dependencies of target record
+[ 69%] Built target record
+Consolidate compiler generated dependencies of target execution
+[ 75%] Built target execution
+Consolidate compiler generated dependencies of target parser
+[ 93%] Built target parser
+Consolidate compiler generated dependencies of target rmdb
+
+# 加载link executable ../bin/rmdb
+[ 96%] Linking CXX executable ../bin/rmdb
+# 最终的可执行文件是
+./bin/rmdb
 ```
 
