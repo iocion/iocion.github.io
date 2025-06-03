@@ -35,6 +35,9 @@ nav:
       - project/autooj/autooj开发问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
+  - 英语:
+    - English/word_list.md
+    - English/六级.md
   - Linux:
     - Linux/linux使用笔记.md
   - 课程:
