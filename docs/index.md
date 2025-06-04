@@ -6,8 +6,6 @@
 
 [实时渲染公式word latex等格式](https://snip.mathpix.com/)
 
-
-
 ```bash
 deepl _passwd : echo "aW9jaW9uMTIzNDU2Cg==" | base64 -d
 ```
