@@ -142,6 +142,12 @@ unset http_proxy
 unset https_proxy
 ```
 
+#### 9.查看git日志内容
+
+```bash
+git reflog # 可以查看git使用执行命令commit rebase fetch merge 的详细信息
+```
+
 
 
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
