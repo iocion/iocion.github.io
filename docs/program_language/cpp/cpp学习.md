@@ -39,7 +39,7 @@ for(const int& var : dest)
 #### 2.cpp的结构体
 
 ```cpp
-include <string.h>
+#include <string.h>
 #define X 100
 //cpp结构体部分
 typedef struct Student{

@@ -9,6 +9,17 @@ docker run --gpus all --shm-size 32g -p 30000:30000 -v ~/.cache/huggingface:/roo
 ```
 
 ```bash
+Vector Search 
+向量数据库 学术和产品落地
+mongodb
+
+# what is deep search
+
+embedding 端到端 和 workflow 
+transform
+
+paddle paddle ocr 百度
+
 ```
 
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
