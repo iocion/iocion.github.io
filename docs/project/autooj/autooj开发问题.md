@@ -10,7 +10,6 @@ when docker run in http://localhost:8080
 # 用whoami命令查看用户名
 username:ubuntu
 ip:119.45.43.103
-passwd:Ltsert@0911#
 ```
 
 #### 1.mysql端口冲突问题
@@ -43,9 +42,9 @@ def get_oj_db_connection():
         connection = pymysql.connect(
             host='119.45.43.103',
             port=3308, # 这里需要修改端口3306为3308
-            user='aust',
-            password='123456',
-            db='autooj'
+            user='db_user_name',
+            password='db_passwd',
+            db='db_name'
         )
         return connection
     except OperationalError as e:
