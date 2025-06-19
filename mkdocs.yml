@@ -58,6 +58,8 @@ nav:
   - Git:
     - Git/Git使用笔记.md
   - 竞赛:
+    - 软件杯:
+      - compotition/软件杯/模拟面试平台.md
     - 数据库设计大赛:
       - compotition/数据库设计大赛/数据库设计大赛.md
       - compotition/数据库设计大赛/第一题.md
@@ -72,6 +74,7 @@ nav:
     - AI/AI深度学习.md
     - AI/编辑器使用.md
     - AI/核心竞争力.md
+    - AI/technology.md
   - 记录:
     - record/2025.4.28杭州记录.md
     - record/2025.5.5随笔.md
