@@ -64,5 +64,22 @@ utils.py 部分的数据库配置部分
 
 ![image-20250423120423961](C:\Users\han\AppData\Roaming\Typora\typora-user-images\image-20250423120423961.png)
 
+#### 3.ngnix 代理使用方法
+
+```bash
+sudo vim /etc/nginx/sites-enabled/default 
+或者
+sudo vim /etc/nginx/nginx.conf
+
+# 可以使用
+sudo nginx -t # 用来检测配置文件是否正确
+
+# 重启ngnix
+sudo systemctl restart nginx
+sudo systemctl status nginx
+```
+
+
+
 
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
