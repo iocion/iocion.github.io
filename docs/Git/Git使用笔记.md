@@ -148,6 +148,16 @@ unset https_proxy
 git reflog # 可以查看git使用执行命令commit rebase fetch merge 的详细信息
 ```
 
+#### 10.github出现小箭头
+
+```bash
+出现原因：文件夹目录下面存在多余的.git/文件夹，github识别它为仓库，提交之后显示白色箭头。
+解决方法：
+ 删除多余的.git文件夹，同时使用
+ git rm --cached [folder_name]，进行缓存的清理，对上一个.git的配置进行reload
+ git commit -m "commit-message" 
+```
+
 
 
 <span id="busuanzi_container_page_pv">文章总观看量<span id="busuanzi_value_page_pv"></span>次</span>
