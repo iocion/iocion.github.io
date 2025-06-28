@@ -33,6 +33,7 @@ nav:
   - 项目:
     - autooj:
       - project/autooj/autooj开发问题.md
+      - project/全栈开发/跨域问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
   - 英语:
