@@ -1,6 +1,6 @@
 # [Info]
 # 左上角标题
-site_name: fuzzy_han's personal website
+site_name: Fuzzy
 site_url: https://iocion.github.io
 site_author: fuzzy_han
 site_description: 
@@ -106,7 +106,7 @@ theme:
     - scheme: default
       # 主颜色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
-      primary: deep purple
+      primary: indigo
       # 链接等可交互元件的高亮色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
       accent: light blue
