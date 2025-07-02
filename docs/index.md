@@ -1,4 +1,4 @@
-!!! warning "while True:"
+!!! info "while True:"
     Requirements create Creativity
 
 ![](https://raw.githubusercontent.com/iocion/iocion/refs/heads/output/github-contribution-grid-snake.svg)
