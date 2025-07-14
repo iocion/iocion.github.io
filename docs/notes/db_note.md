@@ -5,7 +5,7 @@
 ​	而关系型数据库，如mysql，sqlserver，postgresql，Oceanbase，GaussDB等数据库，关系型数据库，ACID数据库事务处理，更加稳定可以更快的还原数据，防止数据丢失，ACID内容 Atomicity Consistency Isolation Durability 
 原子性，一致性，隔离性 ，持续性，这些优势保证了数据库内容的读写的完全，同时在多人进行并发操作时的稳定保障。 
 
-<img src="https://iocion.github.io/image-bed/image/%E8%BD%AF%E4%BB%B6%E4%BA%94%E5%A4%A7%E6%9E%B6%E6%9E%84.png" style="zoom:50%;" />
+<div style="margin:10px"><img src="https://iocion.github.io/image-bed/image/%E8%BD%AF%E4%BB%B6%E4%BA%94%E5%A4%A7%E6%9E%B6%E6%9E%84.png" style="zoom:50%;"/</div>
 
 makefile turial <https://makefiletutorial.com/>
 
