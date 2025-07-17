@@ -59,6 +59,7 @@ nav:
       - course/计组/计组学习.md
   - Git:
     - Git/Git使用笔记.md
+    - Git/github_ssh.md
   - 竞赛:
     - 软件杯:
       - compotition/软件杯/模拟面试平台.md
