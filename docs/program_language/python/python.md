@@ -2,6 +2,30 @@
 
 ​	使用手册
 
+#### 1.新增内容
+
+```python
+uv init -p 3.11
+# 切换python版本方式 edit two files
+.python-version  and   pyproject.toml
+
+如果想要下载依赖内容
+dependencies = [
+    "rich",
+    "requests",
+]
+
+uv sync
+uv run main.py
+打印依赖树
+uv tree
+
+删除依赖
+uv remove requests
+```
+
+> 使用uv进行项目管理
+
 #### 1.python虚拟环境
 
 虚拟环境包括conda , venv 
@@ -33,7 +57,7 @@ version = "0.0.1"
 
 ```bash
 4.下载相关依赖
-pip install -e .
+pip install -e . 不要使用pip进行下载
 ```
 
 ##### 1.1使用uv包管理工具
