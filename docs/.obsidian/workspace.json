@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/course_project/课设.md",
+                "file": "notes/db_note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "课设"
+              "title": "db_note"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/course_project/课设.md",
+                "file": "notes/db_note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 课设"
+              "title": "Backlinks for db_note"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/course_project/课设.md",
+                "file": "notes/db_note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 课设"
+              "title": "Outgoing links from db_note"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/course_project/课设.md",
+                "file": "notes/db_note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 课设"
+              "title": "Outline of db_note"
             }
           }
         ]
@@ -170,14 +170,30 @@
   },
   "active": "b2a984dfcaf6589c",
   "lastOpenFiles": [
-    "record/2025.7.5随笔.md",
-    "notes/db_note.md",
     "notes/论文阅读记录.md",
+    "notes/db_note.md",
+    "notes/android and front.md",
+    "record/2025.7.5随笔.md",
+    "program_language/python/python小组作业/环境安装.md",
+    "program_language/python/python小组作业/AI组第四次作业.md",
+    "program_language/python/python小组作业/AI组第六次作业.md",
+    "program_language/python/python小组作业/AI组第五次作业.md",
+    "program_language/python/python小组作业/AI组第二次作业.md",
+    "program_language/python/python小组作业/AI组第三次作业.md",
+    "program_language/python/python小组作业",
+    "Git/github_ssh.md",
+    "CNAME",
+    "algorithm/course_project/课设.md",
+    "program_language/python/环境安装.md",
+    "program_language/python/AI组第四次作业.md",
+    "program_language/python/AI组第六次作业.md",
+    "program_language/python/AI组第五次作业.md",
+    "program_language/python/AI组第二次作业.md",
+    "program_language/python/AI组第三次作业.md",
     "AI/AI深度学习.md",
     "AI/核心竞争力.md",
     "AI/technology.md",
     "English/word_list.md",
-    "Git/github_ssh.md",
     "notes/db_note.assets/软件五大架构.png",
     "index.md"
   ]
