@@ -1,5 +1,11 @@
 ## docker部署flask项目
 
+```
+常用的docker daemon镜像守护进程
+常用镜像源
+https://docker.1panel.live
+https://docker.1ms.run
+```
 ```bash
 docker images
 docker ps
