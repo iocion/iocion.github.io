@@ -2,6 +2,15 @@
 
 ```bash
 docker images
+
+
+docker常用镜像源
+https://docker.1panel.live
+https://docker.1ms.run
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
 docker ps
 ```
 
