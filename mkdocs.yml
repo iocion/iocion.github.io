@@ -37,6 +37,9 @@ nav:
       - project/全栈开发/跨域问题.md
     - project/docker部署flask项目.md
     - project/vscode远程ubuntu开发.md
+  - 前端:
+    - 前端/Vue学习/基础知识.md
+    - 前端/Vue学习/核心内容.md
   - 英语:
     - English/word_list.md
     - English/六级.md
