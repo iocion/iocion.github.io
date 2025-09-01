@@ -179,3 +179,13 @@ Consolidate compiler generated dependencies of target rmdb
 ./bin/rmdb
 ```
 
+#### 5.位运算符
+```cpp
+优先级从上到下(左结合律)
+~  : 位求反
+<< : 左移 
+>> : 右移
+&  : 位与
+^  : 位异或
+|  : 位或
+```

@@ -56,6 +56,8 @@ nav:
       - course/数据库/数据库开发.md
     - 操作系统:
       - course/操作系统/操作系统学习.md
+      - course/操作系统/jyy_os_lab/L0.md
+      - course/操作系统/jyy_os_lab/L1.md
     - 汇编:
       - course/汇编/汇编学习.md
     - 计组:
