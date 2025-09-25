@@ -84,7 +84,15 @@ item = Item.query.filter_by(id=item_id).first()
 item = Item.query.filter(Item.name.like(f%'{item_name}'%)).first()
 ```
 
+### 5.在出现服务器连接不适用默认ssh port22 端口进行连接的情况
 
+解决方法，使用navicat的 ssh连接 + general 的config
+
+![](./mysql连接.assets/port端口的ssh_mysql连接-1758786452023-2.png)
+
+```bash
+注意： 配置完之后需要在general配置中选择本地localhost，否则无法成功连接
+```
 
 
 
