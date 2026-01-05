@@ -93,3 +93,11 @@ uv init -p 3.11 # 可以选择init的python版本
 name = "(test)" # 通常就是创建的项目名称
 ```
 
+#### 3.环境配置以及镜像配置
+
+```bash
+pip config set global.index-url http://pypi.tuna.tsinghua.edu.cn/simple/
+# 设置全局清华镜像
+pip config set global.trusted-host pypi.tuna.tsinghua.edu.cn
+```
+
